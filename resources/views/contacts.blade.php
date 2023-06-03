@@ -13,7 +13,14 @@
 
     <div class="pg-main-wrapper bg-dark vh-100 text-white text-center mt-5 py-5">
       <h1>Contacts!</h1>
-      <p></p>
+
+      <ul class="list-unstyled">
+        @forelse ($contact_infos as $contact_info)
+          <li>{{$contact_info}}</li>
+        @empty
+          <span>Non contact infos</span>
+        @endforelse
+      </ul>
     </div>
   </body>
 </html>
