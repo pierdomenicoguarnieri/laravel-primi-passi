@@ -13,7 +13,15 @@
 
     <div class="pg-main-wrapper bg-dark vh-100 text-white text-center mt-5 py-5">
       <h1>About Us!</h1>
+      @if ($name === '' || $surname === '')
+
       <p>Hello world! I'm leaning Laravel and this is my first project!</p>
+
+      @else
+
+      <p>Hello world! I'm {{$name}} {{$surname}} and leaning Laravel and this is my first project!</p>
+
+      @endif
     </div>
   </body>
 </html>

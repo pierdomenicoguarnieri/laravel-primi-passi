@@ -18,7 +18,9 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/about-us', function () {
-  return view('about');
+  $name = 'Pierdomenico';
+  $surname = 'Guarnieri';
+  return view('about', compact('name', 'surname'));
 })->name('about');
 
 Route::get('/contacts', function () {
