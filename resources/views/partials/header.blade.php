@@ -19,7 +19,7 @@
             <a class="nav-link text-white" href="{{route('home')}}">Home</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link text-white" href="#">Features</a>
+            <a class="nav-link text-white" href="{{route('about')}}">About Us</a>
           </li>
           <li class="nav-item px-2">
             <a class="nav-link text-white" href="#">Pricing</a>
