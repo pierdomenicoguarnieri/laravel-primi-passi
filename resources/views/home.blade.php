@@ -8,7 +8,8 @@
   <title>Laravel Primi Passi</title>
   </head>
   <body>
-    <div class="pg-main-wrapper bg-dark vh-100 text-white text-center py-5">
+    @include('partials.header')
+    <div class="pg-main-wrapper bg-dark vh-100 text-white text-center mt-5 py-5">
       <h1>Hello World!</h1>
     </div>
   </body>
