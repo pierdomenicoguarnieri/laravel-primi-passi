@@ -25,11 +25,11 @@ Route::get('/about-us', function () {
 
 Route::get('/contacts', function () {
   $contact_infos = [
-    $name = 'Pierdomenico',
-    $surname = 'Guarnieri',
-    $email = 'mail@mail.it',
-    $phone = '123456789',
-    $address = 'Street Unnamed, Italy'
+    'name' => 'Pierdomenico',
+    'surname' => 'Guarnieri',
+    'email' => 'mail@mail.it',
+    'phone' => '123456789',
+    'address' => 'Street Unnamed, Italy'
   ];
   return view('contacts', compact('contact_infos'));
 })->name('contacts');

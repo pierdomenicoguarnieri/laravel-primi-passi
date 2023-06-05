@@ -16,13 +16,13 @@
 
         <ul class="navbar-nav flex-row">
           <li class="nav-item px-2">
-            <a class="nav-link text-white" href="{{route('home')}}">Home</a>
+            <a class="nav-link text-white fs-5" href="{{route('home')}}">Home</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link text-white" href="{{route('about')}}">About Us</a>
+            <a class="nav-link text-white fs-5" href="{{route('about')}}">About Us</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link text-white" href="{{route('contacts')}}">Contacts</a>
+            <a class="nav-link text-white fs-5" href="{{route('contacts')}}">Contacts</a>
           </li>
         </ul>
       </div>

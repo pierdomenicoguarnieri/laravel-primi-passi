@@ -15,10 +15,10 @@
       <h1>Contacts!</h1>
 
       <ul class="list-unstyled">
-        @forelse ($contact_infos as $contact_info)
-          <li>{{$contact_info}}</li>
+        @forelse ($contact_infos as $key => $contact_info)
+          <li>{{$key}}: {{$contact_info}}</li>
         @empty
-          <span>Non contact infos</span>
+          <span>No contact infos</span>
         @endforelse
       </ul>
     </div>
